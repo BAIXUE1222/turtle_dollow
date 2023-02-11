@@ -23,7 +23,7 @@ baixue@ubuntuBx:~/catkin_ws$ catkin_make
 baixue@ubuntuBx:~/catkin_ws$ source devel/setup.bash
 baixue@ubuntuBx:~/catkin_ws$ source devel/setup.zsh
 ```
-It should be noted that if tf is not installed in your ROS, you need to install the 'tf library' first
+It should be noted that if tf is not installed in your ROS, you need to install the `tf library` first
 
 Finally, start `roscore`, run `turtlesim` and `follow.launch`:
 
