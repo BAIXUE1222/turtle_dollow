@@ -42,6 +42,8 @@ Note that each of the four commands above should be executed from another termin
 ## ROS Node Graph
 
 ![rqt node graph](docs/rosgraph3.png)
+
+## turtle_leader Node Graph Highlight
 ![rqt node graph](turtle_leader_topic.png)
 
 ## Challenges Faced
