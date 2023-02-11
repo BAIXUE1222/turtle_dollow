@@ -6,10 +6,10 @@ This repository hosts the source code for the ROS turtle_follow package, which i
 
 ## Usage
 
-To use the `turtle_pong` package, clone this repository into the `src` folder of your catkin workspace:
+To use the `turtle_follow` package, clone this repository into the `src` folder of your catkin workspace:
 
 ```console
-baixue@ubuntuBx:~/catkin_ws/src$ git clone https://github.com/BAIXUE1222/ros-turtle-pong.git
+baixue@ubuntuBx:~/catkin_ws/src$ git clone https://github.com/BAIXUE1222/turtle_follow.git
 ```
 
 Then build the workspace with `catking-tools` or `catkin_make` and source the new package:
@@ -30,8 +30,8 @@ Finally, start `roscore`, run `turtlesim` and `follow.launch`:
 ```console
 roscore
 rosrun turtlesim turtlesim_node
-rosrun turtle_follow turtle_follow_turtle_count
-roslaunch turtle_follow follow.launch
+rosrun turtle_follow turtle_follow_turtle_count  # open marks calculation terminal
+roslaunch turtle_follow follow.launch   # open Auto-Police Catch Thief programe
 ```
 
 Note that each of the three commands above should be executed from another terminal so that it will run in its own process.
