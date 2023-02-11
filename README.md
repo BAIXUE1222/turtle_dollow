@@ -1,4 +1,4 @@
-# Turtle Pong
+# Auto-Police Catch Thief
 
 This repository hosts the source code for the ROS `turtle_pong` package, which implements the Pong arcade video game for the Robot Operating System (ROS 1 Noetic) using turtlesim.
 
