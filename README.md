@@ -30,11 +30,13 @@ Finally, start `roscore`, run `turtlesim` and `follow.launch`:
 ```console
 roscore
 rosrun turtlesim turtlesim_node
-rosrun turtle_follow turtle_follow_turtle_count  # open marks calculation terminal
-roslaunch turtle_follow follow.launch   # open Auto-Police Catch Thief programe
+# open marks calculation terminal
+rosrun turtle_follow turtle_follow_turtle_count  
+# open Auto-Police Catch Thief programe
+roslaunch turtle_follow follow.launch   
 ```
 
-Note that each of the three commands above should be executed from another terminal so that it will run in its own process.
+Note that each of the four commands above should be executed from another terminal so that it will run in its own process.
 
 
 ## ROS Node Graph
