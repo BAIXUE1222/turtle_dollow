@@ -70,7 +70,7 @@ int main(int argc, char **argv)
     double y = rand()%5+2.5;
     spawnPlayerTurtle("turtle_leader", x, y, M_PI_2);
 
-    ros::Timer timer= nh.createTimer(ros::Duration(5), Timecallback1);//定时器
+    ros::Timer timer= nh.createTimer(ros::Duration(3), Timecallback1);//定时器
 
     ros::spin();//回旋函数
     return 0;
