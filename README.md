@@ -1,6 +1,6 @@
 # Auto-Police Catch Thief
 
-This repository hosts the source code for the ROS turtle_pong package, which implements the `Auto-Police Catch Thief` video game for the Robot Operating System using Turtlesim.
+This repository hosts the source code for the ROS turtle_follow package, which implements the `Auto-Police Catch Thief` video game for the Robot Operating System using Turtlesim.
 
 ![Short Game Play](docs/Auto-Police_Catch_Thief.gif)
 
