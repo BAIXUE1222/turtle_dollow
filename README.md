@@ -1,6 +1,6 @@
 # Auto-Police Catch Thief
 
-This repository hosts the source code for the ROS turtle_pong package, which implements the `auto-Pong` arcade video game for the Robot Operating System using Turtlesim.
+This repository hosts the source code for the ROS turtle_pong package, which implements the `Auto-Police Catch Thief` video game for the Robot Operating System using Turtlesim.
 
 ![Short Game Play](docs/auto-pong_game.gif)
 
@@ -23,13 +23,15 @@ baixue@ubuntuBx:~/catkin_ws$ catkin_make
 baixue@ubuntuBx:~/catkin_ws$ source devel/setup.bash
 baixue@ubuntuBx:~/catkin_ws$ source devel/setup.zsh
 ```
+It should be noted that if tf is not installed in your ROS, you need to install the 'tf library' first
 
-Finally, start `roscore`, run `turtlesim` and `pong.launch`:
+Finally, start `roscore`, run `turtlesim` and `follow.launch`:
 
 ```console
 roscore
 rosrun turtlesim turtlesim_node
-roslaunch turtle_pong pong.launch
+rosrun turtle_follow turtle_follow_turtle_count
+roslaunch turtle_follow follow.launch
 ```
 
 Note that each of the three commands above should be executed from another terminal so that it will run in its own process.
