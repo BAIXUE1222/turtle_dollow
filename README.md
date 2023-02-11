@@ -43,7 +43,6 @@ Note that each of the four commands above should be executed from another termin
 
 ![rqt node graph](docs/rqt_rosgraph.svg)
 
-
 ## Challenges Faced
 
 
