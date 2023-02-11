@@ -41,7 +41,7 @@ Note that each of the four commands above should be executed from another termin
 
 ## ROS Node Graph
 
-![rqt node graph](docs/rosgraph.png)
+![rqt node graph](docs/rosgraph.svg)
 
 
 ## Challenges Faced
