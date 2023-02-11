@@ -25,7 +25,7 @@ baixue@ubuntuBx:~/catkin_ws$ source devel/setup.zsh
 ```
 It should be noted that if tf is not installed in your ROS, you need to install the `tf library` first
 
-Finally, start `roscore`, run `turtlesim` and `follow.launch`:
+Finally, start `roscore`, run `turtlesim`, `turtle_follow_turtle_count` and `follow.launch`:
 
 ```console
 roscore
@@ -44,14 +44,12 @@ Note that each of the four commands above should be executed from another termin
 ![rqt node graph](docs/rosgraph.png)
 
 
-## Current Version 
+## Challenges Faced
 
 
-## Missing Features
+## Futurework Can be Done
 This is the first release (version 0.0.0). The following features are planned, and contributions to them or new features and code improvements are welcome.
 
-- Handle missed ball cases (left and right)
-- Add scoreboard logic (for example, using a new turtle to draw player scores)
-- Fix bounce angle logic when the ball hits a paddle.
+- ...
 - ...
 
