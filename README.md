@@ -47,11 +47,13 @@ Note that each of the four commands above should be executed from another termin
 ![rqt node graph](docs/turtle_leader_topic.png)
 
 ## Challenges Faced
-
+- Control algorithm design
+- Coordination formula design
+- `Flocking and consensus algorithm implementation`
 
 ## Futurework Can be Done
 This is the first release (version 0.0.0). The following features are planned, and contributions to them or new features and code improvements are welcome.
 
-- ...
+- Advanced control algorithms
 - ...
 
