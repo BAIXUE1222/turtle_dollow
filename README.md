@@ -5,6 +5,8 @@ This repository hosts the source code for the ROS turtle_follow package, which i
 ![Short Game Play](docs/Auto-Police_Catch_Thief.gif)
 
 ## Usage
+You can also see step by step guide in this link
+[![Watch the video](https://drive.google.com/file/d/1k2nRjsfP7YS4K5GEtmAFx9mq6zSPqPml/view?usp=sharing)
 
 To use the `turtle_follow` package, clone this repository into the `src` folder of your catkin workspace:
 
